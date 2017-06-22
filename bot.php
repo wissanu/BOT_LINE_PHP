@@ -17,7 +17,7 @@ if (!is_null($events['events'])) {
 			$replyToken = $event['replyToken'];
 
 			// if she ask about sleep
-			if(strcmp($text,"นอนหรือยัง")){
+			if(strcmp($text,"นอนหรือยัง") == 0){
 			// Build message to reply back
 			$messages = [
 				'type' => 'text',
